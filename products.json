@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Hat",
+      "price": 1.99,
+      "picture": "hat.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Shoes",
+      "price": 1.99,
+      "picture": "shoes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shirts",
+      "price": 1.99,
+      "picture": "shirt.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Skateboard",
+      "price": 1.99,
+      "picture": "skateboard.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "price": 1.99,
+      "picture": "jeans.jpg"
+    }
+  ],
+  "productDetails": [
+    {
+      "id": 0,
+      "name": "Hat",
+      "price": 1.99,
+      "picture": "hat.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum veniam fugit harum quibusdam repellendus? Voluptas excepturi, maiores odit recusandae ullam ex molestiae quisquam modi explicabo provident fugit sed consequatur officiis."
+    },
+    {
+      "id": 1,
+      "name": "Shoes",
+      "price": 1.99,
+      "picture": "shoes.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum veniam fugit harum quibusdam repellendus? Voluptas excepturi, maiores odit recusandae ullam ex molestiae quisquam modi explicabo provident fugit sed consequatur officiis."
+    },
+    {
+      "id": 2,
+      "name": "Shirts",
+      "price": 1.99,
+      "picture": "shirt.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum veniam fugit harum quibusdam repellendus? Voluptas excepturi, maiores odit recusandae ullam ex molestiae quisquam modi explicabo provident fugit sed consequatur officiis."
+    },
+    {
+      "id": 3,
+      "name": "Skateboard",
+      "price": 1.99,
+      "picture": "skateboard.jpg",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum veniam fugit harum quibusdam repellendus? Voluptas excepturi, maiores odit recusandae ullam ex molestiae quisquam modi explicabo provident fugit sed consequatur officiis."
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "price": 1.99,
+      "picture": "jeans.jpg",
+      "description":
+        "Budget-minded men wear many hats, which is why we’ve stocked our men’s hat sale with a broad variety of dapper and distinguished hats for sale. At a fraction of the cost of other retailers, Hats in the Belfry’s affordable men’s hats don’t compromise on style or quality. We even offer reduced prices on luxurious and designer men’s hats, including high-style fedora hats constructed with the best-of-the-best materials, like authentic fur felt and cashmere. You’ll find top-notch toppers at an affordable price at Hats in the Belfry, including marked-down styles by the world’s most coveted hat brands. All of these men’s hats for sale include free shipping when you spend $100 or more, so you can load up on your favorites and get a hat for every single occasion."
+    }
+  ]
+}
