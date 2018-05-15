@@ -73,3 +73,6 @@ a {
   display: flex;
   justify-content: space-between;
 }
+img {
+  border-radius: 10px;
+}
