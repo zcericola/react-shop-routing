@@ -2,7 +2,7 @@ import React from "react";
 
 const BuyOptions = props => {
   return (
-    <div>
+    <div className="descript">
       <h3>To purchase the above:</h3>
       <h3>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. At aut, amet

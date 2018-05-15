@@ -44,7 +44,7 @@ class ProductDetails extends Component {
             </Link>
           </button>
         </div>
-        <div className="descript">
+        <div>
           <Switch>
             <Route
               path="/details/:id/description"
