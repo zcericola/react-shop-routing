@@ -4,12 +4,12 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 80px;
   padding: 20px;
   color: white;
 }
@@ -31,10 +31,11 @@
   }
 }
 .box {
-  width: 30%;
-  height: 40vh;
+  width: 25%;
+  height: 35vh;
   background: lightgrey;
   margin: 30px 40px;
+  border-radius: 20px;
 }
 a {
   text-decoration: none;
@@ -64,6 +65,7 @@ a {
   background: lightblue;
   border-radius: 5px;
   margin: auto;
+  padding: 10px;
 }
 .button-box {
   width: 30vw;
