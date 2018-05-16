@@ -19,6 +19,7 @@ class ProductView extends Component {
   render() {
     const products = this.state.products.map(curr => {
       return (
+        //here we are mapping over the products on state and spitting out a whole component for each product. Notice that we are including the key -- react needs that key since we are in a map function. Always on the outermost wrapper element. Since we are only returning one thing -- a component -- it goes there. All this data is also being passed as props to the ProductDisplay component.
         <ProductDisplay
           key={curr.id}
           img={curr.picture}
