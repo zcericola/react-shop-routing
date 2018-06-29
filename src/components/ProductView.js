@@ -1,18 +1,17 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Component } from 'react';
+import axios from 'axios';
 
-import ProductDisplay from "./ProductDisplay";
+import ProductDisplay from './ProductDisplay';
 
 class ProductView extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       products: []
     };
   }
   componentDidMount() {
-    axios.get("/api/products").then(resp => {
-      console.log(resp);
+    axios.get('/api/products').then(resp => {
       this.setState({ products: resp.data });
     });
   }

@@ -1,11 +1,19 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// @flow
 
-const Description = ({ description }) => {
+import React from "react";
+
+
+type Props = {
+  description: string
+}
+
+
+const Description = (props: Props) => {
+
   return (
     <div className="descript">
       <h3>Description:</h3>
-      <h3>{description}</h3>
+      <h3>{props.description}</h3>
     </div>
   );
 };

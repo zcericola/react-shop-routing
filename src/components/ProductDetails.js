@@ -1,14 +1,25 @@
-import React, { Component } from "react";
-import { Link, Switch, Route } from "react-router-dom";
+// @flow
+import React, { Component } from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
+import Description from './mini-routes/Description';
+import BuyOptions from './mini-routes/BuyOptions';
 
-import Description from "./mini-routes/Description";
-import BuyOptions from "./mini-routes/BuyOptions";
+import axios from 'axios';
 
-import axios from "axios";
+//denotes prop types
+type Props = {
+  id: number,
+  match: Object
+};
 
-class ProductDetails extends Component {
-  constructor(props) {
-    super(props);
+//state types, state is an optional arg
+type State = {
+  product: Object
+};
+//syntax for class based components
+class ProductDetails extends Component<Props, State> {
+  constructor() {
+    super();
     this.state = {
       product: {}
     };
@@ -17,7 +28,6 @@ class ProductDetails extends Component {
     //on page load, hits the end point which will make a request to our products API and return the product that matches what our id is
 
     //How do we get the id to send in the get request?
-    console.log('Here is the id being added to the url: ', this.props);
     axios.get(`/api/getProduct/${this.props.match.params.id}`).then(resp => {
       this.setState({ product: resp.data[0] });
     });
@@ -33,7 +43,7 @@ class ProductDetails extends Component {
             this.state.product.picture &&
             require(`./../assets/${this.state.product.picture}`)
           }
-          alt=""
+          alt="fdafd"
         />
         <div className="button-box">
           <button>
